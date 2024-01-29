@@ -510,7 +510,7 @@ function game_frame() {
       ctx.fillRect(0, 0, canvas_width, canvas_height);
       ctx.fillStyle = "#ffffff";
       ctx.font = "20px Verdana";
-      ctx.fillText(`${winning_player.toUpperCase()} won`, 100, 100);
+      ctx.fillText(`${winning_player.toUpperCase()} won (press start to continue)`, 100, 100);
 
       if((player_one.controller && player_one.controller.start()) || (player_two.controller && player_two.controller.start())) {
         game_state = "menu";
