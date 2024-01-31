@@ -91,7 +91,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            2 Players - Play the slime game I made in an hour - 12/2018
+            Play the slime game I made in an hour using GameMaker 2 <br/> 2 Players <br/> 12/2018
           </p>
         </a>
 
@@ -102,13 +102,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Divekick{" "}
+            DiveBox{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            2 Players - Play my Dive kick game - 12/2019
+            Play my divekick game made in HTML and Javascript <br/> 2 Players <br/> 12/2019
           </p>
         </a>
       </div>
